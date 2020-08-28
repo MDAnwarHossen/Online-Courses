@@ -9,13 +9,14 @@ const Courses = () => {
     const [cart, setCart] = useState([]);
 
     const handleAddProduct = (product) =>{
+
         const newCart = [...cart, product];
         setCart(newCart);
     }
     
     
     return (
-        <div className="container">
+        <div className="container mt-5 pt-5">
 
             <div className="row">
                 <div className="col-10">
